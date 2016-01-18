@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jnlp spec="1.0+" codebase="" href="">
+    <information>
+        <title>JW Game</title>
+        <vendor>shadowdraken</vendor>
+    </information>
+    <security>
+        <j2ee-application-client-permissions/>
+    </security>
+    <resources>
+        <!-- Application Resources -->
+        <j2se version="1.7+"
+            href="http://java.sun.com/products/autodl/j2se" />
+        <jar href="JWGame.jar" main="true" />
+
+    </resources>
+    <applet-desc
+         name="JWGame"
+         main-class="GUI.GameLauncher"
+         width="1280"
+         height="720">
+     </applet-desc>
+     <update check="background"/>
+</jnlp>
