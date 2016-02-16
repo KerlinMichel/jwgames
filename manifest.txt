@@ -1,3 +1,0 @@
-Permissions: sandbox
-Codebase: jwgames.me
-Application-Name: Jw Game
